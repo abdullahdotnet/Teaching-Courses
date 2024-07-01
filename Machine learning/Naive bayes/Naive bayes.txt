@@ -1,0 +1,61 @@
+{H,T}
+
+1/2 = 50%
+
+probability of red ball = 2/5
+
+
+
+prob of red = 1/2 * 2/5 + 1/2 * 4/7 = 0.48 or 48%
+
+
+
+P(B1/R)
+
+
+Bayes theorem:
+
+P(Y/X) = P(X/Y) * P(Y)
+	----------------
+	     P(X)
+
+P(B1/R) = P(R/B1) * P(B1)
+	-------------------
+	      P(R)
+
+P(B1/R) = 2/5 * 1/2
+	-------------
+	     0.48
+
+P(B1/R) = 0.416 or 41.6%
+
+Naive Bayes(Supervised technique +  classification):
+
+key notes: it is naive because it makes a naive assumption that all these factors
+are independent
+
+P(Y|X1,X2,X3,....Xn) = P(X1/Y)*P(X2/Y).....P(Xn/Y) * P(Y)
+		       ------------------------------------
+                             P(X1)*P(X2).....*P(Xn)
+
+
+
+
+sunny,hot,high,false ---> Y
+sunny,hot,high,false ---> N
+
+P(Yes|sunny,hot,high,false) = 2/8 * 3/8 * 3/8 * 6/8 * 9/14 = 0.0169
+
+p(No|sunny,hot,high,false) =  3/5 * 2/5 * 4/5 * 2/5 * 5/14 = 0.027
+
+
+Rainy,Hot,normal,True
+
+
+
+
+
+
+
+
+
